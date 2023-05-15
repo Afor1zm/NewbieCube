@@ -9,7 +9,6 @@ public class SnowControl : MonoBehaviour
     void Start()
     {
         _particle.Play();
-        _particle.Stop();
-        _particle.Pause();
+        Debug.Log($"Hello Git");
     }
 }
